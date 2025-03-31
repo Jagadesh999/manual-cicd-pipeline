@@ -172,18 +172,6 @@ spec:
   type: LoadBalancer
 ```
 
----
-
-## ** Step 7: Push Project to GitHub**
-```bash
-git init
-git add .
-git commit -m "Initial commit - Manual CI/CD pipeline"
-git remote add origin https://github.com/jagadesh999/manual-cicd-pipeline.git
-git branch -M main
-git push -u origin main
-```
-
  **Final Deployment URL:**
 ```
 http://<LoadBalancer_IP>
